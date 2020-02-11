@@ -24,4 +24,8 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\doublelinkedlist\Text1.in" />
+    <None Include="..\Current_DLinkList\Text2.in" />
+  </ItemGroup>
 </Project>

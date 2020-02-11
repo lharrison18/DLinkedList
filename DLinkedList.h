@@ -156,8 +156,8 @@ public:
 				Aptr->next->prev = Aptr->prev;
 				Aptr->prev = result.header->prev;
 				Aptr->next = result.header;
-				result->header->prev->next = Aptr;
-				result->header->prev = Aptr;
+				result.header->prev->next = Aptr;
+				result.header->prev = Aptr;
 				Aptr = header->next;
 			}
 			else
@@ -166,8 +166,8 @@ public:
 				Bptr->next->prev = Bptr->prev;
 				Bptr->prev = result.header->prev;
 				Bptr->next = result.header;
-				result->header->prev->next = Bptr;
-				result->header->prev = Bptr;
+				result.header->prev->next = Bptr;
+				result.header->prev = Bptr;
 				Bptr = rhs.header->next;
 
 			}

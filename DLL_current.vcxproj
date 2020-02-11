@@ -143,6 +143,10 @@
   <ItemGroup>
     <ClInclude Include="DLinkedList.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Current_DLinkList\Text2.in" />
+    <None Include="..\doublelinkedlist\Text1.in" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
